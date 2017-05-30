@@ -17,6 +17,7 @@ public class SampleChart {
         lineChart.setTitle("Stock Monitoring, 2010");
         lineChart.setAnimated(false);
         update();
+        lineChart.getData().add(series);
 	}
 
 	public static void update(){
@@ -24,7 +25,5 @@ public class SampleChart {
         for(int i=0;i<50;i++){
         	series.getData().add(new XYChart.Data(i, PlotData.value[i]));
         }
-        lineChart.getData().clear();
-        lineChart.getData().add(series);
 	}
 }
