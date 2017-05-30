@@ -23,7 +23,7 @@ public class Chart {
 	public static void update(){
 		series.getData().clear();
         for(int i=0;i<50;i++){
-        	series.getData().add(new XYChart.Data(i, PlotData.value[i]));
+        	series.getData().add(new XYChart.Data(i, PlotData.value.get(i)));
         }
 	}
 }
