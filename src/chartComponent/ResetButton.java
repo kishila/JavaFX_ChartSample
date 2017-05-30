@@ -14,7 +14,7 @@ public class ResetButton extends Button {
 	        @Override
 	        public void handle(ActionEvent e) {
 	        	PlotData.resetData();
-	        	SampleChart.update();
+	        	Chart.update();
 	        }
 	    });
 	}

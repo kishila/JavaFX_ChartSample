@@ -1,7 +1,8 @@
 package application;
 
+import chartComponent.AddValueButton;
 import chartComponent.ResetButton;
-import chartComponent.SampleChart;
+import chartComponent.Chart;
 import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.scene.layout.BorderPane;
@@ -15,8 +16,9 @@ public class Main extends Application {
         stage.setTitle("Line Chart Sample");
 
         BorderPane pane = new BorderPane();
-        pane.setCenter(SampleChart.lineChart);
+        pane.setCenter(Chart.lineChart);
         pane.setBottom(ResetButton.button);
+        pane.setRight(AddValueButton.button);
 
         Scene scene  = new Scene(pane,1200,600);
         stage.setScene(scene);

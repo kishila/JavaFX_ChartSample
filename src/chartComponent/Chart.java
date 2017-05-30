@@ -4,7 +4,7 @@ import javafx.scene.chart.LineChart;
 import javafx.scene.chart.NumberAxis;
 import javafx.scene.chart.XYChart;
 
-public class SampleChart {
+public class Chart {
 
 	final static NumberAxis xAxis = new NumberAxis();
     final static NumberAxis yAxis = new NumberAxis();
