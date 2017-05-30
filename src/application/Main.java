@@ -1,11 +1,11 @@
 package application;
 
+import chartComponent.ResetButton;
+import chartComponent.SampleChart;
 import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.scene.layout.BorderPane;
 import javafx.stage.Stage;
-import sample.ResetButton;
-import sample.SampleChart;
 
 
 public class Main extends Application {

@@ -1,4 +1,4 @@
-package sample;
+package chartComponent;
 
 import java.util.Random;
 
@@ -15,7 +15,6 @@ public class PlotData {
         for(int i=0;i<50;i++){
         	value[i] = rnd.nextInt(50);
         }
-        System.out.println("反応");
 	}
 
 }

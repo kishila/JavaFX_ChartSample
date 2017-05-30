@@ -1,4 +1,4 @@
-package sample;
+package chartComponent;
 
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
@@ -15,7 +15,6 @@ public class ResetButton extends Button {
 	        public void handle(ActionEvent e) {
 	        	PlotData.resetData();
 	        	SampleChart.update();
-	        	System.out.println("押された");
 	        }
 	    });
 	}
