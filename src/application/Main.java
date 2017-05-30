@@ -21,6 +21,7 @@ public class Main extends Application {
         pane.setRight(AddValueButton.button);
 
         Scene scene  = new Scene(pane,1200,600);
+
         stage.setScene(scene);
         stage.show();
     }

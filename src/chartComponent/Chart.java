@@ -13,9 +13,13 @@ public class Chart {
     final static XYChart.Series series = new XYChart.Series();
 
 	static {
-        xAxis.setLabel("Number of Month");
-        lineChart.setTitle("Stock Monitoring, 2010");
+        xAxis.setLabel("x label");
+        lineChart.setTitle("Title");
         lineChart.setAnimated(false);
+        lineChart.setCreateSymbols(false);
+        lineChart.getStylesheets().add("css/chart.css");
+        series.setName("series title");
+
         update();
         lineChart.getData().add(series);
 	}
